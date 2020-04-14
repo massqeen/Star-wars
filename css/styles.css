@@ -1,0 +1,152 @@
+@font-face {
+  font-family: 'Roboto-SW';
+  src: url('../fonts/Roboto-Regular.eot');
+  src: url('../fonts/Roboto-Regular.woff') format('woff'),
+    url('../fonts/Roboto-Regular.ttf') format('truetype'),
+    url('../fonts/Roboto-Regular.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Bold-SW';
+  src: url('../fonts/Roboto-Bold.eot');
+  src: url('../fonts/Roboto-Bold.woff') format('woff'),
+    url('../fonts/Roboto-Bold.ttf') format('truetype'),
+    url('../fonts/Roboto-Bold.svg') format('svg');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Roboto-Black-SW';
+  src: url('../fonts/Roboto-Black.eot');
+  src: url('../fonts/Roboto-Black.woff') format('woff'),
+    url('../fonts/Roboto-Black.ttf') format('truetype'),
+    url('../fonts/Roboto-Black.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Proxima-Nova-Black-SW';
+  src: url('../fonts/Proxima Nova Black.eot');
+  src: url('../fonts/Proxima Nova Black.woff') format('woff'),
+    url('../fonts/Proxima Nova Black.ttf') format('truetype'),
+    url('../fonts/Proxima Nova Black.svg') format('svg');
+  font-weight: 900;
+  font-style: normal;
+}
+
+body {
+  background: #070506 url(../img/main-bg.png) no-repeat;
+  color: #fff;
+  font-family: 'Roboto-SW', sans-serif;
+  font-size: 18px;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 1060px;
+}
+
+.header {
+  padding-left: 6px;
+  padding-top: 90px;
+  padding-bottom: 78px;
+}
+
+.header,
+.nav-list {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  min-width: 314px;
+  justify-content: space-between;
+  font-family: 'Roboto-SW';
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header-logo {
+  margin-right: 70px;
+}
+
+.hero-subtitle {
+  font-family: 'Proxima-Nova-Black-SW', sans-serif;
+  font-size: 40px;
+  line-height: 40px;
+  margin-bottom: 4px;
+}
+
+.hero-title {
+  font-family: 'Proxima-Nova-Black-SW', sans-serif;
+  font-size: 64px;
+  line-height: 78px;
+  margin-bottom: 24px;
+}
+
+.hero-description {
+  line-height: 27px;
+  max-width: 572px;
+  color: #afafaf;
+  margin-bottom: 24px;
+}
+
+.hero-premier {
+  display: block;
+  line-height: 27px;
+  color: #b02000;
+  margin-bottom: 4px;
+}
+
+.hero-data {
+  display: block;
+  font-size: 24px;
+  line-height: 36px;
+  margin-bottom: 46px;
+}
+
+.hero-button-play {
+  position: relative;
+  border: none;
+  background: linear-gradient(90deg, #fb641a 0%, #fc3309 100%);
+  border-radius: 300px;
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 24px 34px;
+  padding-right: 84px;
+}
+
+.hero-button-play::after {
+  content: '';
+  width: 64px;
+  height: 64px;
+  background: #fff url(../img/play.svg) right 16px top 14px no-repeat;
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.hero-button-play::before {
+  content: '';
+  width: 80px;
+  height: 80px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: block;
+  border-radius: 50%;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}
