@@ -1,18 +1,7 @@
-# site for Star Wars 9th episode announcement
+# <<<<<<< HEAD
 
-## PC screenshots
+# Star-wars
 
-![Home page PC](./img/screenshots/Home.jpg 'Home page PC')
-![Restaurant page PC](./img/screenshots/Restaurant.jpg 'Restaurant page PC')
-![Cart page PC](./img/screenshots/Cart.jpg 'Cart page PC')
+Promo page for Episode 9
 
-## Tablet screenshots
-
-![Home page tablet](./img/screenshots/tablet1.PNG 'Home page tablet')
-![Home page tablet](./img/screenshots/tablet.PNG 'Cart page tablet')
-
-### Smartphone screenshots
-
-![Home page smartphone](./img/screenshots/mobile.jpg 'Home page smartphone')
-![Restaurant page smartphone](./img/screenshots/mobile1.jpg 'Restaurant page smartphone')
-![Cart page smartphone](./img/screenshots/mobile2.jpg 'Cart page smartphone')
+> > > > > > > 4e08f219a259ba857d0b4edbca2dc34878cbadd3
