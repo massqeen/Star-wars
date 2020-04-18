@@ -6,6 +6,7 @@
     <title>Звездные войны Эпизод 9</title>
     <link rel="stylesheet" href="./css/minireset.min.css" />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/animate.css" />
   </head>
   <body>
     <div class="wrapper">
@@ -26,8 +27,10 @@
       </header>
       <main>
         <section class="hero">
-          <span class="hero-subtitle">Эпизод IX</span>
-          <h1 class="hero-title">Скайуокер. Восход</h1>
+          <p class="hero-subtitle animated zoomInRight">Эпизод IX</p>
+          <h1 class="hero-title animated delay-1s zoomInRight">
+            Скайуокер. Восход
+          </h1>
           <p class="hero-description">
             Фильм завершает невероятную историю семьи Скайуокеров, длящуюся уже
             более сорока лет, и обещает дать ответы на все загадки из предыдущих
@@ -37,22 +40,31 @@
           </p>
           <span class="hero-premier">Премьера</span>
           <span class="hero-data">19 декабря 2019</span>
-          <a
-            href="https://www.youtube.com/watch?v=KVRBfWQgyuY"
-            data-fancybox
-            class="hero-button-play"
-          >
-            Смотреть трейлер
-          </a>
+          <div class="button animated pulse">
+            <a
+              href="https://www.youtube.com/watch?v=KVRBfWQgyuY"
+              data-fancybox
+              class="hero-button-play"
+            >
+              Смотреть трейлер
+            </a>
+          </div>
         </section>
         <section class="episodes">
           <h2 class="episodes-title">Предыдущие эпизоды</h2>
-          <ul class="slider">
+          <ul class="slider owl-carousel">
             <li class="slider-item">
               <time class="slider-item-year">1999</time>
               <h3 class="slider-item-title">Эпизод I:<br />Скрытая угроза</h3>
               <div class="slider-item-rating">
-                <span class="slider-item-rating-label">Рейтинг 3</span>
+                <span class="slider-item-rating-label">Рейтинг</span>
+                <div class="slider-item-rating-stars">
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-empty.svg" alt="empty-star" />
+                  <img src="./img/star-empty.svg" alt="empty-star" />
+                </div>
               </div>
               <img
                 src="./img/Episode1.jpg"
@@ -64,7 +76,14 @@
               <time class="slider-item-year">2002</time>
               <h3 class="slider-item-title">Эпизод II:<br />Атака клонов</h3>
               <div class="slider-item-rating">
-                <span class="slider-item-rating-label">Рейтинг 3</span>
+                <span class="slider-item-rating-label">Рейтинг</span>
+                <div class="slider-item-rating-stars">
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-empty.svg" alt="empty-star" />
+                  <img src="./img/star-empty.svg" alt="empty-star" />
+                </div>
               </div>
               <img
                 src="./img/Episode2.jpg"
@@ -76,7 +95,14 @@
               <time class="slider-item-year">2005</time>
               <h3 class="slider-item-title">Эпизод III:<br />Месть ситхов</h3>
               <div class="slider-item-rating">
-                <span class="slider-item-rating-label">Рейтинг 4</span>
+                <span class="slider-item-rating-label">Рейтинг </span>
+                <div class="slider-item-rating-stars">
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-empty.svg" alt="empty-star" />
+                </div>
               </div>
               <img
                 src="./img/Episode3.jpg"
@@ -88,7 +114,14 @@
               <time class="slider-item-year">1977</time>
               <h3 class="slider-item-title">Эпизод IV:<br />Новая надежда</h3>
               <div class="slider-item-rating">
-                <span class="slider-item-rating-label">Рейтинг 5</span>
+                <span class="slider-item-rating-label">Рейтинг</span>
+                <div class="slider-item-rating-stars">
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                </div>
               </div>
               <img
                 src="./img/Episode4.jpg"
@@ -102,7 +135,14 @@
                 Эпизод V:<br />Империя наносит ответный удар
               </h3>
               <div class="slider-item-rating">
-                <span class="slider-item-rating-label">Рейтинг 5</span>
+                <span class="slider-item-rating-label">Рейтинг</span>
+                <div class="slider-item-rating-stars">
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                </div>
               </div>
               <img
                 src="./img/Episode5.jpg"
@@ -116,7 +156,14 @@
                 Эпизод VI:<br />Возвращение джедая
               </h3>
               <div class="slider-item-rating">
-                <span class="slider-item-rating-label">Рейтинг 5</span>
+                <span class="slider-item-rating-label">Рейтинг</span>
+                <div class="slider-item-rating-stars">
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                </div>
               </div>
               <img
                 src="./img/Episode6.jpg"
@@ -130,7 +177,14 @@
                 Эпизод VII:<br />Пробуждение силы
               </h3>
               <div class="slider-item-rating">
-                <span class="slider-item-rating-label">Рейтинг 4</span>
+                <span class="slider-item-rating-label">Рейтинг</span>
+                <div class="slider-item-rating-stars">
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-empty.svg" alt="empty-star" />
+                </div>
               </div>
               <img
                 src="./img/Episode7.jpg"
@@ -144,7 +198,14 @@
                 Эпизод VIII:<br />Последние джедаи
               </h3>
               <div class="slider-item-rating">
-                <span class="slider-item-rating-label">Рейтинг 4</span>
+                <span class="slider-item-rating-label">Рейтинг</span>
+                <div class="slider-item-rating-stars">
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-solid.svg" alt="solid-star" />
+                  <img src="./img/star-empty.svg" alt="empty-star" />
+                </div>
               </div>
               <img
                 src="./img/Episode8.jpg"
@@ -163,5 +224,8 @@
       href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css"
     />
     <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <script src="./js/owl.carousel.min.js"></script>
+    <script src="./js/main.js"></script>
   </body>
 </html>
