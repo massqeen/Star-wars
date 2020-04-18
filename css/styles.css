@@ -75,6 +75,12 @@ body {
 .nav-link {
   text-decoration: none;
   color: #fff;
+  padding: 20px 0;
+}
+
+.nav-link:hover {
+  color: #fb641a;
+  transition: 0.3s;
 }
 
 .header-logo {
